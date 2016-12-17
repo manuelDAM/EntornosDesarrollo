@@ -59,7 +59,7 @@ public class Calculadora extends JFrame {
 	 */
 	public Calculadora() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 338, 481);
+		setBounds(100, 100, 338, 481); //Ventana mediana
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(210, 105, 30));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -69,7 +69,7 @@ public class Calculadora extends JFrame {
 		textField = new JTextField(); // donde visualizamos los numeros y resultados
 		textField.setFont(new Font("Hobo Std", Font.PLAIN, 40));
 		textField.setForeground(new Color(0, 0, 255));
-		textField.setHorizontalAlignment(SwingConstants.RIGHT); //donde coloco los números dentro del textField
+		textField.setHorizontalAlignment(SwingConstants.RIGHT); //donde coloco los nÃºmeros dentro del textField
 		textField.setBounds(12, 13, 296, 48);
 		contentPane.add(textField);
 		textField.setColumns(10);
