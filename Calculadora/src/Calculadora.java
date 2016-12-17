@@ -66,7 +66,7 @@ public class Calculadora extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		textField = new JTextField(); // donde visualizamos los numeros y resultados
+		textField = new JTextField(); // Nuevo campo donde visualizamos los numeros y resultados
 		textField.setFont(new Font("Hobo Std", Font.PLAIN, 40));
 		textField.setForeground(new Color(0, 0, 255));
 		textField.setHorizontalAlignment(SwingConstants.RIGHT); // campo donde coloco los números dentro del textField
